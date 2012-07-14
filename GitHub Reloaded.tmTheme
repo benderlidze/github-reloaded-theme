@@ -219,7 +219,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>CSS Scopes</string>
+      <string>CSS/SASS/Stylus Scopes</string>
       <key>scope</key>
       <string></string>
       <key>settings</key>
@@ -232,7 +232,7 @@
       <key>name</key>
       <string>Base scope for file (CSS)</string>
       <key>scope</key>
-      <string>source.css</string>
+      <string>source.css, source.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -243,7 +243,7 @@
       <key>name</key>
       <string>Comment (CSS)</string>
       <key>scope</key>
-      <string>comment.block.css</string>
+      <string>comment.block.css, comment.block.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -256,7 +256,7 @@
       <key>name</key>
       <string>Number (CSS)</string>
       <key>scope</key>
-      <string>constant.numeric.css</string>
+      <string>constant.numeric.css, constant.numeric.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -267,7 +267,7 @@
       <key>name</key>
       <string>RGB (CSS)</string>
       <key>scope</key>
-      <string>constant.other.color.rgb-value.css</string>
+      <string>constant.other.color.rgb-value.css, constant.other.color.rgb-value.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -278,7 +278,7 @@
       <key>name</key>
       <string>Element (CSS)</string>
       <key>scope</key>
-      <string>entity.name.tag.css</string>
+      <string>entity.name.tag.css, entity.name.tag.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -289,7 +289,7 @@
       <key>name</key>
       <string>Class (CSS)</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.class.css</string>
+      <string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -302,7 +302,7 @@
       <key>name</key>
       <string>ID (CSS)</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.id.css</string>
+      <string>entity.other.attribute-name.id.css, entity.other.attribute-name.id.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -315,7 +315,7 @@
       <key>name</key>
       <string>Deprecated color (CSS)</string>
       <key>scope</key>
-      <string>invalid.deprecated.color.w3c-non-standard-color-name.css</string>
+      <string>invalid.deprecated.color.w3c-non-standard-color-name.css, invalid.deprecated.color.w3c-non-standard-color-name.sass</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -324,7 +324,7 @@
       <key>name</key>
       <string>@ rule (CSS)</string>
       <key>scope</key>
-      <string>keyword.control.at-rule.media.css</string>
+      <string>keyword.control.at-rule.media.css, keyword.control.at-rule.media.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -335,7 +335,7 @@
       <key>name</key>
       <string>(meta.at-rule.media.css) (CSS)</string>
       <key>scope</key>
-      <string>meta.at-rule.media.css</string>
+      <string>meta.at-rule.media.css, meta.at-rule.media.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -346,7 +346,7 @@
       <key>name</key>
       <string>Percentage (CSS)</string>
       <key>scope</key>
-      <string>keyword.other.unit.css</string>
+      <string>keyword.other.unit.css, keyword.other.unit.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -357,7 +357,7 @@
       <key>name</key>
       <string>Star (CSS)</string>
       <key>scope</key>
-      <string>punctuation.asterisk.css</string>
+      <string>punctuation.asterisk.css, punctuation.asterisk.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -368,7 +368,7 @@
       <key>name</key>
       <string>Left and Right curly (CSS)</string>
       <key>scope</key>
-      <string>punctuation.section.property-list.css</string>
+      <string>punctuation.section.property-list.css, punctuation.section.property-list.sass</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -377,7 +377,7 @@
       <key>name</key>
       <string>(punctuation.greater.css) (CSS)</string>
       <key>scope</key>
-      <string>punctuation.greater.css</string>
+      <string>punctuation.greater.css, punctuation.greater.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -388,7 +388,7 @@
       <key>name</key>
       <string>Comma (CSS)</string>
       <key>scope</key>
-      <string>punctuation.separator.css</string>
+      <string>punctuation.separator.css, punctuation.separator.sass</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -397,7 +397,7 @@
       <key>name</key>
       <string>Colon (CSS)</string>
       <key>scope</key>
-      <string>punctuation.separator.key-value.css</string>
+      <string>punctuation.separator.key-value.css, punctuation.separator.key-value.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -408,7 +408,7 @@
       <key>name</key>
       <string>Slash (CSS)</string>
       <key>scope</key>
-      <string>punctuation.slash.css</string>
+      <string>punctuation.slash.css, punctuation.slash.sass</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -417,7 +417,7 @@
       <key>name</key>
       <string>Semicolon (CSS)</string>
       <key>scope</key>
-      <string>punctuation.terminator.rule.css</string>
+      <string>punctuation.terminator.rule.css, punctuation.terminator.rule.sass</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -426,16 +426,18 @@
       <key>name</key>
       <string>Double quoted string (CSS)</string>
       <key>scope</key>
-      <string>string.quoted.double.css</string>
+      <string>string.quoted.double.css, string.quoted.double.sass</string>
       <key>settings</key>
       <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Single quoted string (CSS)</string>
       <key>scope</key>
-      <string>string.quoted.single.css</string>
+      <string>string.quoted.single.css, string.quoted.single.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -446,16 +448,27 @@
       <key>name</key>
       <string>Color (CSS)</string>
       <key>scope</key>
-      <string>support.constant.color.w3c-standard-color-name.css</string>
+      <string>support.constant.color.w3c-standard-color-name.css, support.constant.color.w3c-standard-color-name.sass</string>
       <key>settings</key>
       <dict>
       </dict>
     </dict>
     <dict>
       <key>name</key>
+      <string>(variable.other.sass) (SASS)</string>
+      <key>scope</key>
+      <string>variable.other.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Font (CSS)</string>
       <key>scope</key>
-      <string>support.constant.font-name.css</string>
+      <string>support.constant.font-name.css, support.constant.font-name.sass</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -464,7 +477,7 @@
       <key>name</key>
       <string>Media (CSS)</string>
       <key>scope</key>
-      <string>support.constant.media.css</string>
+      <string>support.constant.media.css, support.constant.media.sass</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -473,7 +486,7 @@
       <key>name</key>
       <string>Value (CSS)</string>
       <key>scope</key>
-      <string>support.constant.property-value.css</string>
+      <string>support.constant.property-value.css, support.constant.property-value.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -484,7 +497,7 @@
       <key>name</key>
       <string>Function (CSS)</string>
       <key>scope</key>
-      <string>support.function.misc.css</string>
+      <string>support.function.misc.css, support.function.misc.sass</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -495,7 +508,7 @@
       <key>name</key>
       <string>Property (CSS)</string>
       <key>scope</key>
-      <string>support.type.property-name.css</string>
+      <string>support.type.property-name.css, support.type.property-name.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -506,7 +519,7 @@
       <key>name</key>
       <string>Undefined (CSS)</string>
       <key>scope</key>
-      <string>undefined.css</string>
+      <string>undefined.css, undefined.sass</string>
       <key>settings</key>
       <dict>
       </dict>
