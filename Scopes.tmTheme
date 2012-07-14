@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
   <key>name</key>
-  <string>GitHub Reloaded</string>
+  <string>Base Theme</string>
   <key>uuid</key>
-  <string>05264088-52e0-30eb-949c-fabd7c88e4bb</string>
+  <string>196c1caf-ca2e-369e-87d3-689bec6439b6</string>
   <key>settings</key>
   <array>
     <dict>
@@ -43,10 +43,6 @@
       <string>markup.inserted</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#000000ff</string>
-        <key>background</key>
-        <string>#ddffddff</string>
       </dict>
     </dict>
     <dict>
@@ -56,10 +52,6 @@
       <string>markup.deleted</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#000000ff</string>
-        <key>background</key>
-        <string>#ffddddff</string>
       </dict>
     </dict>
     <dict>
@@ -69,8 +61,6 @@
       <string>ansi.black</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#333333ff</string>
       </dict>
     </dict>
     <dict>
@@ -80,8 +70,6 @@
       <string>ansi.white</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#fffcfcff</string>
       </dict>
     </dict>
     <dict>
@@ -91,8 +79,6 @@
       <string>ansi.gray</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#bebebeff</string>
       </dict>
     </dict>
     <dict>
@@ -102,8 +88,6 @@
       <string>ansi.magenta</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#c8267bff</string>
       </dict>
     </dict>
     <dict>
@@ -113,8 +97,6 @@
       <string>ansi.cyan</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#2dfffeff</string>
       </dict>
     </dict>
     <dict>
@@ -124,8 +106,6 @@
       <string>ansi.yellow</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#fffd38ff</string>
       </dict>
     </dict>
     <dict>
@@ -135,8 +115,6 @@
       <string>ansi.blue</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#061ac8ff</string>
       </dict>
     </dict>
     <dict>
@@ -146,8 +124,6 @@
       <string>ansi.green</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#18a81bff</string>
       </dict>
     </dict>
     <dict>
@@ -157,8 +133,6 @@
       <string>ansi.red</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#fc0d1bff</string>
       </dict>
     </dict>
     <dict>
@@ -235,8 +209,6 @@
       <string>source.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#333333ff</string>
       </dict>
     </dict>
     <dict>
@@ -246,10 +218,6 @@
       <string>comment.block.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#999988ff</string>
-        <key>fontStyle</key>
-        <string>italic</string>
       </dict>
     </dict>
     <dict>
@@ -259,8 +227,6 @@
       <string>constant.numeric.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#009999ff</string>
       </dict>
     </dict>
     <dict>
@@ -270,8 +236,6 @@
       <string>constant.other.color.rgb-value.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#009999ff</string>
       </dict>
     </dict>
     <dict>
@@ -281,8 +245,6 @@
       <string>entity.name.tag.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#121289ff</string>
       </dict>
     </dict>
     <dict>
@@ -292,10 +254,6 @@
       <string>entity.other.attribute-name.class.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#445588ff</string>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -305,10 +263,6 @@
       <string>entity.other.attribute-name.id.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#990000ff</string>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -327,19 +281,6 @@
       <string>keyword.control.at-rule.media.css</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(meta.at-rule.media.css) (CSS)</string>
-      <key>scope</key>
-      <string>meta.at-rule.media.css</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#121289ff</string>
       </dict>
     </dict>
     <dict>
@@ -349,8 +290,6 @@
       <string>keyword.other.unit.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#009999ff</string>
       </dict>
     </dict>
     <dict>
@@ -360,8 +299,6 @@
       <string>punctuation.asterisk.css</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -371,17 +308,6 @@
       <string>punctuation.section.property-list.css</string>
       <key>settings</key>
       <dict>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(punctuation.greater.css) (CSS)</string>
-      <key>scope</key>
-      <string>punctuation.greater.css</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -400,8 +326,6 @@
       <string>punctuation.separator.key-value.css</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -438,8 +362,6 @@
       <string>string.quoted.single.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
       </dict>
     </dict>
     <dict>
@@ -476,8 +398,6 @@
       <string>support.constant.property-value.css</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -487,8 +407,6 @@
       <string>support.function.misc.css</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
       </dict>
     </dict>
     <dict>
@@ -498,8 +416,6 @@
       <string>support.type.property-name.css</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -621,8 +537,6 @@
       <string>text.html.basic</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#333333ff</string>
       </dict>
     </dict>
     <dict>
@@ -632,10 +546,6 @@
       <string>comment.block.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#999988ff</string>
-        <key>fontStyle</key>
-        <string>italic</string>
       </dict>
     </dict>
     <dict>
@@ -645,8 +555,6 @@
       <string>constant.character.entity.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#7f0f7eff</string>
       </dict>
     </dict>
     <dict>
@@ -701,19 +609,6 @@
       <string>entity.other.attribute-name.class.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(entity.other.attribute-name.style.html) (HTML)</string>
-      <key>scope</key>
-      <string>entity.other.attribute-name.style.html</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
       </dict>
     </dict>
     <dict>
@@ -723,8 +618,6 @@
       <string>entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
       </dict>
     </dict>
     <dict>
@@ -734,19 +627,6 @@
       <string>entity.other.attribute-name.id.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>scope for the tag (applies to anything inside brackets) (HTML)</string>
-      <key>scope</key>
-      <string>meta.tag.block.any.html</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#121289ff</string>
       </dict>
     </dict>
     <dict>
@@ -754,6 +634,15 @@
       <string>bare/unescaped ampersand (HTML)</string>
       <key>scope</key>
       <string>invalid.illegal.bad-ampersand.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>scope for the tag (applies to anything inside brackets) (HTML)</string>
+      <key>scope</key>
+      <string>meta.tag.block.any.html</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -774,17 +663,13 @@
       <string>meta.tag.sgml.html, meta.tag.sgml.doctype.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#999999ff</string>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Tag start '&lt;' (HTML)</string>
       <key>scope</key>
-      <string></string>
+      <string>punctuation.definition.tag.begin.html</string>
       <key>settings</key>
       <dict>
       </dict>
@@ -814,8 +699,6 @@
       <string>punctuation.separator.key-value.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
       </dict>
     </dict>
     <dict>
@@ -852,8 +735,6 @@
       <string>string.quoted.double.html</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
       </dict>
     </dict>
     <dict>
@@ -1002,8 +883,6 @@
       <string>constant.numeric.js</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#009999ff</string>
       </dict>
     </dict>
     <dict>
@@ -1013,8 +892,6 @@
       <string>keyword.control.js</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1024,8 +901,6 @@
       <string>keyword.operator.js</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1093,33 +968,11 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Single quoted string (JS)</string>
-      <key>scope</key>
-      <string>string.quoted.single.js</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
       <string>Storage modifier (JS)</string>
       <key>scope</key>
       <string>storage.modifier.js</string>
       <key>settings</key>
       <dict>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Double quoted string (JS)</string>
-      <key>scope</key>
-      <string>string.quoted.double.js</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
       </dict>
     </dict>
     <dict>
@@ -1138,8 +991,6 @@
       <string>support.class.js</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#1487b1ff</string>
       </dict>
     </dict>
     <dict>
@@ -1198,19 +1049,6 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>(comment.line.double-slash.js) (JS)</string>
-      <key>scope</key>
-      <string>comment.line.double-slash.js</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#999988ff</string>
-        <key>fontStyle</key>
-        <string>italic</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
       <string>Undefined (JS)</string>
       <key>scope</key>
       <string>undefined.js</string>
@@ -1225,8 +1063,6 @@
       <string>variable.language.js</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1247,8 +1083,6 @@
       <string>keyword.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1267,8 +1101,6 @@
       <string>keyword.control.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1278,8 +1110,6 @@
       <string>keyword.other.class.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1289,8 +1119,6 @@
       <string>keyword.control.import.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1300,8 +1128,6 @@
       <string>keyword.operator.logical.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1320,8 +1146,6 @@
       <string>keyword.operator.assignment.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1331,8 +1155,6 @@
       <string>keyword.operator.comparison.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1369,8 +1191,6 @@
       <string>keyword.operator.class.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1380,8 +1200,6 @@
       <string>meta.function-call.static.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1391,8 +1209,6 @@
       <string>variable.language.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
       </dict>
     </dict>
     <dict>
@@ -1402,8 +1218,6 @@
       <string>variable.other.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
       </dict>
     </dict>
     <dict>
@@ -1440,8 +1254,6 @@
       <string>constant.language.other.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1460,8 +1272,6 @@
       <string>constant.numeric.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#1487b1ff</string>
       </dict>
     </dict>
     <dict>
@@ -1471,100 +1281,6 @@
       <string>constant.other.php</string>
       <key>settings</key>
       <dict>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Single quoted string (PHP)</string>
-      <key>scope</key>
-      <string>string.quoted.single.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Double quoted string (PHP)</string>
-      <key>scope</key>
-      <string>string.quoted.double.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(entity.name.type.class.php) (PHP)</string>
-      <key>scope</key>
-      <string>entity.name.type.class.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#445588ff</string>
-        <key>fontStyle</key>
-        <string>bold</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(meta.function.php) (PHP)</string>
-      <key>scope</key>
-      <string>meta.function.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#990000ff</string>
-        <key>fontStyle</key>
-        <string>bold</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(meta.function-call.object.php) (PHP)</string>
-      <key>scope</key>
-      <string>meta.function-call.object.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(meta.function-call.php) (PHP)</string>
-      <key>scope</key>
-      <string>meta.function-call.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#333333ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(variable.other.property.php) (PHP)</string>
-      <key>scope</key>
-      <string>variable.other.property.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#0a8585ff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>(punctuation.section.embedded.begin.php) (PHP)</string>
-      <key>scope</key>
-      <string>punctuation.section.embedded.begin.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#999999ff</string>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1583,10 +1299,6 @@
       <string>storage.type.function.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#333333ff</string>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1596,8 +1308,6 @@
       <string>storage.type.class.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1607,8 +1317,6 @@
       <string>storage.modifier.public.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1663,8 +1371,6 @@
       <string>support.function.construct.php</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold</string>
       </dict>
     </dict>
     <dict>
@@ -1674,8 +1380,6 @@
       <string>support.function.builtin_functions.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#1487b1ff</string>
       </dict>
     </dict>
     <dict>
@@ -1703,8 +1407,6 @@
       <string>support.function.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#1487b1ff</string>
       </dict>
     </dict>
     <dict>
@@ -1723,8 +1425,6 @@
       <string>comment.block.documentation.phpdoc.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#dd1144ff</string>
       </dict>
     </dict>
     <dict>
@@ -1734,10 +1434,6 @@
       <string>comment.block.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#999988ff</string>
-        <key>fontStyle</key>
-        <string>italic</string>
       </dict>
     </dict>
     <dict>
@@ -1747,10 +1443,6 @@
       <string>comment.line.double-slash.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#999988ff</string>
-        <key>fontStyle</key>
-        <string>italic</string>
       </dict>
     </dict>
     <dict>
@@ -1760,10 +1452,6 @@
       <string>comment.line.number-sign.php</string>
       <key>settings</key>
       <dict>
-        <key>foreground</key>
-        <string>#999988ff</string>
-        <key>fontStyle</key>
-        <string>italic</string>
       </dict>
     </dict>
     <dict>
