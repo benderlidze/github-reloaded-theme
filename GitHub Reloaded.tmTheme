@@ -637,6 +637,39 @@
       <dict>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Support Function</string>
+      <key>scope</key>
+      <string>support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#1487b1ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Support Constant</string>
+      <key>scope</key>
+      <string>support.constant</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP Variable</string>
+      <key>scope</key>
+      <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
   </array>
 </dict>
 </plist>
