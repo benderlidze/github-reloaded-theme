@@ -466,6 +466,19 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>(comment.line.sass) (SASS)</string>
+      <key>scope</key>
+      <string>comment.line.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Font (CSS)</string>
       <key>scope</key>
       <string>support.constant.font-name.css, support.constant.font-name.sass</string>
@@ -1039,6 +1052,19 @@
       <dict>
         <key>fontStyle</key>
         <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comment Block (JS)</string>
+      <key>scope</key>
+      <string>comment.block.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
