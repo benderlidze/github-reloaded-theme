@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>GitHub Reloaded</string>
+  <key>uuid</key>
+  <string>05264088-52e0-30eb-949c-fabd7c88e4bb</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333</string>
+        <key>background</key>
+        <string>#fffcfc</string>
+        <key>caret</key>
+        <string>#333333</string>
+        <key>lineHighlight</key>
+        <string>#00000012</string>
+        <key>selection</key>
+        <string>#fffeceff</string>
+        <key>invisibles</key>
+        <string>#404040</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>fg/bg color used for git decorations for inserted lines, added files and staged files.</string>
+      <key>scope</key>
+      <string>markup.inserted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000ff</string>
+        <key>background</key>
+        <string>#ddffddff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>fg/bg color used for git decorations for deleted lines and unstaged changed files.</string>
+      <key>scope</key>
+      <string>markup.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000ff</string>
+        <key>background</key>
+        <string>#ffddddff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for black</string>
+      <key>scope</key>
+      <string>ansi.black</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for white</string>
+      <key>scope</key>
+      <string>ansi.white</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#fffcfcff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for gray</string>
+      <key>scope</key>
+      <string>ansi.gray</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#bebebeff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for magenta</string>
+      <key>scope</key>
+      <string>ansi.magenta</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#c8267bff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for cyan</string>
+      <key>scope</key>
+      <string>ansi.cyan</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#2dfffeff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for yellow</string>
+      <key>scope</key>
+      <string>ansi.yellow</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#fffd38ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for blue</string>
+      <key>scope</key>
+      <string>ansi.blue</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#061ac8ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for green</string>
+      <key>scope</key>
+      <string>ansi.green</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#18a81bff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>color used in Terminals when we encounter the ASNI color code for red</string>
+      <key>scope</key>
+      <string>ansi.red</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#fc0d1bff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Error</string>
+      <key>scope</key>
+      <string>console.error</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Output</string>
+      <key>scope</key>
+      <string>console.output</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Input, Info output</string>
+      <key>scope</key>
+      <string>console.input</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Prompt, Trace output</string>
+      <key>scope</key>
+      <string>console.prompt</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Warning</string>
+      <key>scope</key>
+      <string>console.warning</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (CSS)</string>
+      <key>scope</key>
+      <string>source.css, source.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comment (CSS)</string>
+      <key>scope</key>
+      <string>comment.block.css, comment.block.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Number (CSS)</string>
+      <key>scope</key>
+      <string>constant.numeric.css, constant.numeric.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#009999ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>RGB (CSS)</string>
+      <key>scope</key>
+      <string>constant.other.color.rgb-value.css, constant.other.color.rgb-value.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#009999ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Element (CSS)</string>
+      <key>scope</key>
+      <string>entity.name.tag.css, entity.name.tag.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#121289ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Class (CSS)</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#445588ff</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>ID (CSS)</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.id.css, entity.other.attribute-name.id.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#990000ff</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Deprecated color (CSS)</string>
+      <key>scope</key>
+      <string>invalid.deprecated.color.w3c-non-standard-color-name.css, invalid.deprecated.color.w3c-non-standard-color-name.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>@ rule (CSS)</string>
+      <key>scope</key>
+      <string>keyword.control.at-rule.media.css, keyword.control.at-rule.media.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(meta.at-rule.media.css) (CSS)</string>
+      <key>scope</key>
+      <string>meta.at-rule.media.css, meta.at-rule.media.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#121289ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Percentage (CSS)</string>
+      <key>scope</key>
+      <string>keyword.other.unit.css, keyword.other.unit.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#009999ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Star (CSS)</string>
+      <key>scope</key>
+      <string>punctuation.asterisk.css, punctuation.asterisk.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Left and Right curly (CSS)</string>
+      <key>scope</key>
+      <string>punctuation.section.property-list.css, punctuation.section.property-list.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(punctuation.greater.css) (CSS)</string>
+      <key>scope</key>
+      <string>punctuation.greater.css, punctuation.greater.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comma (CSS)</string>
+      <key>scope</key>
+      <string>punctuation.separator.css, punctuation.separator.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Colon (CSS)</string>
+      <key>scope</key>
+      <string>punctuation.separator.key-value.css, punctuation.separator.key-value.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Slash (CSS)</string>
+      <key>scope</key>
+      <string>punctuation.slash.css, punctuation.slash.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Semicolon (CSS)</string>
+      <key>scope</key>
+      <string>punctuation.terminator.rule.css, punctuation.terminator.rule.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Double quoted string (CSS)</string>
+      <key>scope</key>
+      <string>string.quoted.double.css, string.quoted.double.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Single quoted string (CSS)</string>
+      <key>scope</key>
+      <string>string.quoted.single.css, string.quoted.single.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Color (CSS)</string>
+      <key>scope</key>
+      <string>support.constant.color.w3c-standard-color-name.css, support.constant.color.w3c-standard-color-name.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(variable.other.sass) (SASS)</string>
+      <key>scope</key>
+      <string>variable.other.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(comment.line.sass) (SASS)</string>
+      <key>scope</key>
+      <string>comment.line.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Font (CSS)</string>
+      <key>scope</key>
+      <string>support.constant.font-name.css, support.constant.font-name.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Media (CSS)</string>
+      <key>scope</key>
+      <string>support.constant.media.css, support.constant.media.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Value (CSS)</string>
+      <key>scope</key>
+      <string>support.constant.property-value.css, support.constant.property-value.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function (CSS)</string>
+      <key>scope</key>
+      <string>support.function.misc.css, support.function.misc.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Property (CSS)</string>
+      <key>scope</key>
+      <string>support.type.property-name.css, support.type.property-name.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Undefined (CSS)</string>
+      <key>scope</key>
+      <string>undefined.css, undefined.sass</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Ruby Attributes (HAML)</string>
+      <key>scope</key>
+      <string>meta.section.attributes.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Doctype (HAML)</string>
+      <key>scope</key>
+      <string>meta.prolog.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Tag (HAML)</string>
+      <key>scope</key>
+      <string>meta.tag.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Text (HAML)</string>
+      <key>scope</key>
+      <string>text.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Ruby Eval (HAML)</string>
+      <key>scope</key>
+      <string>meta.line.ruby.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Interpolation (HAML)</string>
+      <key>scope</key>
+      <string>meta.section.other.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Embedded Ruby (HAML)</string>
+      <key>scope</key>
+      <string>source.ruby.embedded.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Object (HAML)</string>
+      <key>scope</key>
+      <string>meta.section.object.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comment (HAML)</string>
+      <key>scope</key>
+      <string>meta.line.ruby.haml.source.ruby.embedded.haml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (HTML)</string>
+      <key>scope</key>
+      <string>text.html.basic</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>HTML Comment (HTML)</string>
+      <key>scope</key>
+      <string>comment.block.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Entities (HTML)</string>
+      <key>scope</key>
+      <string>constant.character.entity.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#7f0f7eff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Block tag element name (HTML)</string>
+      <key>scope</key>
+      <string>entity.name.tag.block.any.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Inline tag element name (HTML)</string>
+      <key>scope</key>
+      <string>entity.name.tag.inline.any.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Script tag 'script' name (HTML)</string>
+      <key>scope</key>
+      <string>entity.name.tag.script.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Structure tag element name (HTML)</string>
+      <key>scope</key>
+      <string>entity.name.tag.structure.any.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Style tag 'style' name (HTML)</string>
+      <key>scope</key>
+      <string>entity.name.tag.style.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Class attribute in tag (HTML)</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.class.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(entity.other.attribute-name.style.html) (HTML)</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.style.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Attribute in tag (HTML)</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>ID attribute in tag (HTML)</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.id.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>scope for the tag (applies to anything inside brackets) (HTML)</string>
+      <key>scope</key>
+      <string>meta.tag.block.any.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#121289ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>bare/unescaped ampersand (HTML)</string>
+      <key>scope</key>
+      <string>invalid.illegal.bad-ampersand.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Meta tag (HTML)</string>
+      <key>scope</key>
+      <string>meta.tag.other.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>!DOCTYPE (HTML)</string>
+      <key>scope</key>
+      <string>meta.tag.sgml.html, meta.tag.sgml.doctype.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999999ff</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Tag end '&gt;' (HTML)</string>
+      <key>scope</key>
+      <string>punctuation.definition.tag.end.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Self-closing tag (HTML)</string>
+      <key>scope</key>
+      <string>punctuation.definition.tag.self_close.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Equal sign '=' (HTML)</string>
+      <key>scope</key>
+      <string>punctuation.separator.key-value.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>style tag contents (HTML)</string>
+      <key>scope</key>
+      <string>source.css.embedded.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Javascript script tag contents (HTML)</string>
+      <key>scope</key>
+      <string>source.js.embedded.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SVG tag contents (HTML)</string>
+      <key>scope</key>
+      <string>source.svg.embedded.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Double-quoted string (HTML)</string>
+      <key>scope</key>
+      <string>string.quoted.double.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Single-quoted string (HTML)</string>
+      <key>scope</key>
+      <string>string.quoted.single.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CDATA (HTML)</string>
+      <key>scope</key>
+      <string>string.unquoted.cdata.xml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Text (inside tag pairs) (HTML)</string>
+      <key>scope</key>
+      <string>text</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Undefined (HTML)</string>
+      <key>scope</key>
+      <string>undefined.html</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (IDL)</string>
+      <key>scope</key>
+      <string>source.idl</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>IDL Single Line Comment (IDL)</string>
+      <key>scope</key>
+      <string>comment.line.double-slash.idl</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>IDL Doc Comment (IDL)</string>
+      <key>scope</key>
+      <string>comment.block.documentation.idl</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>IDL Multi-line Comment (IDL)</string>
+      <key>scope</key>
+      <string>comment.block.idl</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (JS)</string>
+      <key>scope</key>
+      <string>source.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>False (JS)</string>
+      <key>scope</key>
+      <string>constant.language.boolean.false.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>True (JS)</string>
+      <key>scope</key>
+      <string>constant.language.boolean.true.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Constant (JS)</string>
+      <key>scope</key>
+      <string>constant.language.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Null (JS)</string>
+      <key>scope</key>
+      <string>constant.language.null.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Number (JS)</string>
+      <key>scope</key>
+      <string>constant.numeric.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#009999ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Control keywords (break, case, if, else, return switch, goto, import, package, etc.) (JS)</string>
+      <key>scope</key>
+      <string>keyword.control.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Operators (?, !, +, &gt;&gt;, &amp;, ++, +=, etc.) (JS)</string>
+      <key>scope</key>
+      <string>keyword.operator.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comment Block (JS)</string>
+      <key>scope</key>
+      <string>comment.block.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>"Other" keywords (debugger) (JS)</string>
+      <key>scope</key>
+      <string>keyword.other.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Curly brace (JS)</string>
+      <key>scope</key>
+      <string>meta.brace.curly.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Parenthesis (JS)</string>
+      <key>scope</key>
+      <string>meta.brace.round.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Square brace (JS)</string>
+      <key>scope</key>
+      <string>meta.brace.square.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comma (JS)</string>
+      <key>scope</key>
+      <string>meta.delimiter.object.comma.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Dot (JS)</string>
+      <key>scope</key>
+      <string>operator.dot.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Semicolon (JS)</string>
+      <key>scope</key>
+      <string>punctuation.terminator.statement.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Single quoted string (JS)</string>
+      <key>scope</key>
+      <string>string.quoted.single.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Storage modifier (JS)</string>
+      <key>scope</key>
+      <string>storage.modifier.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Double quoted string (JS)</string>
+      <key>scope</key>
+      <string>string.quoted.double.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Storage type (JS)</string>
+      <key>scope</key>
+      <string>storage.type.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Support class (JS)</string>
+      <key>scope</key>
+      <string>support.class.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#1487b1ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>DOM constant (JS)</string>
+      <key>scope</key>
+      <string>support.constant.dom.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Support constant (JS)</string>
+      <key>scope</key>
+      <string>support.constant.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>DOM function (JS)</string>
+      <key>scope</key>
+      <string>support.function.dom.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Event handler function (JS)</string>
+      <key>scope</key>
+      <string>support.function.event-handler.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Firebug function (JS)</string>
+      <key>scope</key>
+      <string>support.function.js.firebug</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Support function (JS)</string>
+      <key>scope</key>
+      <string>support.function.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(comment.line.double-slash.js) (JS)</string>
+      <key>scope</key>
+      <string>comment.line.double-slash.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Undefined (JS)</string>
+      <key>scope</key>
+      <string>undefined.js</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Variable (JS)</string>
+      <key>scope</key>
+      <string>variable.language.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Language keywords, such as 'use', 'clone', 'declare', 'new', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'namespace' keyword (PHP)</string>
+      <key>scope</key>
+      <string>keyword.namespace.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Control-keywords such as 'if', 'continue', 'while', 'return', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.control.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'instanceof', 'extends' and 'implements' keywords (PHP)</string>
+      <key>scope</key>
+      <string>keyword.other.class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'include', 'include_once', 'require' and 'require_once' keywords (PHP)</string>
+      <key>scope</key>
+      <string>keyword.control.import.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Logical keywords and operators, such as 'and', 'at', 'as', '&amp;&amp;', '^', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.logical.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Bitwise operators, such as '&lt;&lt;', '&amp;', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.bitwise.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Assignments operators, such as '=', '%=', '^=', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.assignment.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comparison operators, such as '&lt;', '&lt;=', '===', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.comparison.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Arthmetic operators, such as '+', '*', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.arithmetic.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'++' and '--' operators (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.increment-decrement.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>String operation functions, such as 'dirname', 'printf', etc. (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.string.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>The '-&gt;' object operator (PHP)</string>
+      <key>scope</key>
+      <string>keyword.operator.class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Double-colon operator '::' (PHP)</string>
+      <key>scope</key>
+      <string>meta.function-call.static.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'this', 'self' and 'parent' keywords (PHP)</string>
+      <key>scope</key>
+      <string>variable.language.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Other variables, like $my_variable (PHP)</string>
+      <key>scope</key>
+      <string>variable.other.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Super-Global variables, like $_COOKIE, $_FILES, etc. (PHP)</string>
+      <key>scope</key>
+      <string>variable.other.global.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'Safer' PHP globals. Include: $GLOBAL, $_ENV, $_SERVER and $_SESSION (PHP)</string>
+      <key>scope</key>
+      <string>variable.other.global.safer.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP language constants, such as '_FILE', 'LINE_', etc. (PHP)</string>
+      <key>scope</key>
+      <string>constant.language.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'True', 'False', 'Null', 'On', 'Yes', etc. (PHP)</string>
+      <key>scope</key>
+      <string>constant.language.other.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>The 'const' keyword (PHP)</string>
+      <key>scope</key>
+      <string>constant.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>For all types of numbers (PHP)</string>
+      <key>scope</key>
+      <string>constant.numeric.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#1487b1ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Constant name (PHP)</string>
+      <key>scope</key>
+      <string>constant.other.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Single quoted string (PHP)</string>
+      <key>scope</key>
+      <string>string.quoted.single.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Double quoted string (PHP)</string>
+      <key>scope</key>
+      <string>string.quoted.double.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(entity.name.type.class.php) (PHP)</string>
+      <key>scope</key>
+      <string>entity.name.type.class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#445588ff</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(meta.function.php) (PHP)</string>
+      <key>scope</key>
+      <string>meta.function.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#990000ff</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(meta.function-call.object.php) (PHP)</string>
+      <key>scope</key>
+      <string>meta.function-call.object.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(meta.function-call.php) (PHP)</string>
+      <key>scope</key>
+      <string>meta.function-call.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(variable.other.property.php) (PHP)</string>
+      <key>scope</key>
+      <string>variable.other.property.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0a8585ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(punctuation.section.embedded.begin.php) (PHP)</string>
+      <key>scope</key>
+      <string>punctuation.section.embedded.begin.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999999ff</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'var', 'global' and 'interface' keywords (PHP)</string>
+      <key>scope</key>
+      <string>storage.type.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'function' keyword (PHP)</string>
+      <key>scope</key>
+      <string>storage.type.function.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333ff</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'class' keyword (PHP)</string>
+      <key>scope</key>
+      <string>storage.type.class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'public' modifier (PHP)</string>
+      <key>scope</key>
+      <string>storage.modifier.public.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'private' modifier (PHP)</string>
+      <key>scope</key>
+      <string>storage.modifier.private.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'protected' modifier (PHP)</string>
+      <key>scope</key>
+      <string>storage.modifier.protected.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'static' modifier (PHP)</string>
+      <key>scope</key>
+      <string>storage.modifier.static.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'final' modifier (PHP)</string>
+      <key>scope</key>
+      <string>storage.modifier.final.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'abstract' modifier (PHP)</string>
+      <key>scope</key>
+      <string>storage.modifier.abstract.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'echo' and 'eval' (PHP)</string>
+      <key>scope</key>
+      <string>support.function.construct.php</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'define' (PHP)</string>
+      <key>scope</key>
+      <string>support.function.builtin_functions.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#1487b1ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Built-in PHP API classes (PHP)</string>
+      <key>scope</key>
+      <string>support.class.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Built-in PHP API constants (PHP)</string>
+      <key>scope</key>
+      <string>support.constant.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Built-in PHP API functions (PHP)</string>
+      <key>scope</key>
+      <string>support.function.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#1487b1ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Semicolon (PHP)</string>
+      <key>scope</key>
+      <string>punctuation.terminator.expression.php</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHPDoc block (PHP)</string>
+      <key>scope</key>
+      <string>comment.block.documentation.phpdoc.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dd1144ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Block comment (PHP)</string>
+      <key>scope</key>
+      <string>comment.block.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Line comment that starts with // (PHP)</string>
+      <key>scope</key>
+      <string>comment.line.double-slash.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Line comment that starts with # (PHP)</string>
+      <key>scope</key>
+      <string>comment.line.number-sign.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#999988ff</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (Ruby)</string>
+      <key>scope</key>
+      <string>source.ruby.rails</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'?a' characters (Ruby)</string>
+      <key>scope</key>
+      <string>character.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>=begin..=end block comments (Ruby)</string>
+      <key>scope</key>
+      <string>comment.block.documentation</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string># single line comments (Ruby)</string>
+      <key>scope</key>
+      <string>comment.line.number-sign.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(constant.language.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>constant.language.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>fixum, bignum, floats (Ruby)</string>
+      <key>scope</key>
+      <string>constant.numeric.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>:symbol (Ruby)</string>
+      <key>scope</key>
+      <string>constant.other.symbol.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(default.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>default.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>method name in definition (Ruby)</string>
+      <key>scope</key>
+      <string>entity.name.function.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>class name in definition (Ruby)</string>
+      <key>scope</key>
+      <string>entity.name.type.class.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>module name in definition (Ruby)</string>
+      <key>scope</key>
+      <string>entity.name.type.module.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(error.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>error.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'class' keyword (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.control.class.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'def' keyword (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.control.def.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'module' keyword (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.control.module.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(keyword.control.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.control.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>'do' keyword (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.control.start-block.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>plus, minus, divide, multiply, etc. (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.operator.arithmetic.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(keyword.operator.assignment.augmented.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.operator.assignment.augmented.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(keyword.operator.assignment.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.operator.assignment.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(keyword.operator.comparison.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.operator.comparison.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(keyword.operator.logical.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>keyword.operator.logical.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(punctuation.separator.inheritance.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>punctuation.separator.inheritance.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(punctuation.separator.key-value) (Ruby)</string>
+      <key>scope</key>
+      <string>punctuation.separator.key-value</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Commands (inside backticks) (Ruby)</string>
+      <key>scope</key>
+      <string>string.interpolated.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Double quoted string contents (Ruby)</string>
+      <key>scope</key>
+      <string>string.quoted.double.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Single quoted string contents (Ruby)</string>
+      <key>scope</key>
+      <string>string.quoted.single.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(support.class.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>support.class.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>(variable.language.ruby) (Ruby)</string>
+      <key>scope</key>
+      <string>variable.language.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>block arguments/variables (Ruby)</string>
+      <key>scope</key>
+      <string>variable.other.block.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Constants (Ruby)</string>
+      <key>scope</key>
+      <string>variable.other.constant.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Class Variables (Ruby)</string>
+      <key>scope</key>
+      <string>variable.other.readwrite.class.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Global variables (Ruby)</string>
+      <key>scope</key>
+      <string>variable.other.readwrite.global.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Instance variables (Ruby)</string>
+      <key>scope</key>
+      <string>variable.other.readwrite.instance.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Parameters in method definitions (Ruby)</string>
+      <key>scope</key>
+      <string>variable.parameter.ruby</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (SVG)</string>
+      <key>scope</key>
+      <string>text.xml.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS Tag Contents (SVG)</string>
+      <key>scope</key>
+      <string>source.js.embedded.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CSS Tag Contents (SVG)</string>
+      <key>scope</key>
+      <string>source.css.embedded.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SVG Comment (SVG)</string>
+      <key>scope</key>
+      <string>comment.block.xml.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SVG Processing Instruction (SVG)</string>
+      <key>scope</key>
+      <string>meta.tag.preprocessor.xml.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SVG Tag (SVG)</string>
+      <key>scope</key>
+      <string>meta.tag.xml.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SVG Block (SVG)</string>
+      <key>scope</key>
+      <string>meta.tag.block.any.xml.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SVG CDATA (SVG)</string>
+      <key>scope</key>
+      <string>string.unquoted.cdata.xml.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SVG DocType (SVG)</string>
+      <key>scope</key>
+      <string>meta.tag.sgml.doctype.xml.svg</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (XML)</string>
+      <key>scope</key>
+      <string>text.xml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>XML Comment (XML)</string>
+      <key>scope</key>
+      <string>comment.block.xml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>XML Pre Processor (XML)</string>
+      <key>scope</key>
+      <string>meta.tag.preprocessor.xml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>XML Tag (XML)</string>
+      <key>scope</key>
+      <string>meta.tag.xml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>XML CDATA (XML)</string>
+      <key>scope</key>
+      <string>string.unquoted.cdata.xml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>XML DocType (XML)</string>
+      <key>scope</key>
+      <string>meta.tag.sgml.doctype.xml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Base scope for file (YAML)</string>
+      <key>scope</key>
+      <string>source.yaml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>YAML Comment (YAML)</string>
+      <key>scope</key>
+      <string>comment.line.number-sign.yaml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>YAML Single Quoted String (YAML)</string>
+      <key>scope</key>
+      <string>string.quoted.single.yaml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>YAML Double Quoted String (YAML)</string>
+      <key>scope</key>
+      <string>string.quoted.double.yaml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>YAML Interpolated String (YAML)</string>
+      <key>scope</key>
+      <string>string.interpolated.yaml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>YAML Directive (YAML)</string>
+      <key>scope</key>
+      <string>meta.tage.directive.yaml</string>
+      <key>settings</key>
+      <dict>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
